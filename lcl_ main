@@ -1,0 +1,39 @@
+*&---------------------------------------------------------------------*
+*&       Class (Definition)  lcl_main
+*&---------------------------------------------------------------------*
+*        Text
+*----------------------------------------------------------------------*
+CLASS lcl_main DEFINITION.
+  PUBLIC SECTION.
+
+    METHODS:  constructor,
+              execute,
+              select_data.
+
+
+ENDCLASS.
+
+*&---------------------------------------------------------------------*
+*&       Class (Implementation)  lcl_main
+*&---------------------------------------------------------------------*
+*        Text
+*----------------------------------------------------------------------*
+CLASS lcl_main IMPLEMENTATION.
+
+  METHOD constructor.
+
+  ENDMETHOD.                    "constructor
+
+  METHOD execute.
+
+    select_data( ).
+
+  ENDMETHOD.
+
+
+  METHOD select_data.
+
+
+  ENDMETHOD.
+
+ENDCLASS.
